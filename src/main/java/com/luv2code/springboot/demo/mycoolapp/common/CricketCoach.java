@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Primary
 @Qualifier(value = "cricketCoach")
-@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 //TIP create one bea
 public class CricketCoach implements Coach {
 
