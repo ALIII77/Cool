@@ -27,14 +27,5 @@ public class CricketCoach implements Coach {
         return "implement dailyWorkout in CricketCoach class:-)";
     }
 
-    @PostConstruct
-    public void doMyStartUpStuff() {
-        System.out.println("doMyStartUpStuff " + getClass().getSimpleName());
-    }
-
-    @PreDestroy
-    public void doMyCleanUpStuff(){
-        System.out.println("doMyCleanUpStuff " + getClass().getSimpleName());
-    }
 
 }
